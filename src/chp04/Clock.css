@@ -1,0 +1,12 @@
+.clock{
+    border-width: 5px;
+    border-style: groove;
+    border-color: #9900ff;
+    background-color: #b66bea;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px;
+    margin: 20px;
+    width: 170px;
+}
