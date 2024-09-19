@@ -8,14 +8,15 @@ import reportWebVitals from './reportWebVitals';
 import ConfirmDialog from "./chp04/ConfirmDialog";
 import Clock from "./chp04/Clock";
 import CommentList from "./chp05/CommentList";
-
-
+import Notification from "./chp06/Notification";
+import NotificationList from "./chp06/NotificationList";
+import './chp06/Notification.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 setInterval(()=>{
     root.render(
         <React.StrictMode>
-            <CommentList/>
+            <NotificationList />
         </React.StrictMode>
         );
     }
