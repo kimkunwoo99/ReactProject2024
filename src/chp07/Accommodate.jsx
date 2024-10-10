@@ -6,13 +6,14 @@ const MAX_CAPACITY = 10;
 function Accommodate(props){
     const [isFull, setIsFull] = useState(false);
     const [count, increaseCount, decreaseCount] = useCounter(0);
+
     // Mount(컴포넌트가 생성) 되었을 때, Update 되었을 때
     useEffect(() =>{
         console.log("=========================");
         console.log("useEffact가 실행됨");
         console.log(`isFull: ${isFull}`);
     });
-
+``
     useEffect(() =>{
         setIsFull(count >= MAX_CAPACITY);
         console.log(`Current count value: ${count}`);
