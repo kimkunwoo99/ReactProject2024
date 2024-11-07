@@ -10,7 +10,7 @@ function Accommodate(props){
     // Mount(컴포넌트가 생성) 되었을 때, Update 되었을 때
     useEffect(() =>{
         console.log("=========================");
-        console.log("useEffact가 실행됨");
+        console.log("useEffect가 실행됨");
         console.log(`isFull: ${isFull}`);
     });
 ``
