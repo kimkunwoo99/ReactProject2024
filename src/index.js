@@ -27,12 +27,15 @@ import Greeting from "./test/Greeting";
 import MailBox from "./chp09/MailBox";
 import LoginControl2 from "./chp09/LoginControl2";
 import LandingPage from "./chp09/LandingPage";
+import AppNumberList from "./chp10/AppNumberList";
+import StudentAttendance from "./chp10/StudentAttendance";
+import AppStudentAttendance from "./chp10/AppStudentAttendance";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 setInterval(()=>{
     root.render(
         <React.StrictMode>
-            <LandingPage/>
+            <AppStudentAttendance/>
         </React.StrictMode>
         );
     }
