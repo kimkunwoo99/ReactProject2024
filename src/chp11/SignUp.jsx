@@ -16,7 +16,7 @@ function SignUp() {
         이메일: ${email}
         성별: ${gender}
         관심사: ${interests}
-        `);
+        `)
     };
     const handleChange = (event) => {
         const {target} = event;
