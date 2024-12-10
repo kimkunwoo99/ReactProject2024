@@ -1,0 +1,43 @@
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* 부드러운 확대 효과 */
+}
+
+.card:hover {
+    transform: scale(1.05); /* 카드 전체 확대 */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* 그림자 효과 추가 */
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+    transition: transform 0.3s ease; /* 이미지 확대 효과 */
+}
+
+.card:hover img {
+    transform: scale(1.1); /* 이미지만 추가 확대 */
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin: 0.5rem 0;
+}
+
+.card-description {
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 0.5rem;
+}
+
+.card-price {
+    font-size: 1rem;
+    color: #000;
+    font-weight: bold; /* 가격 강조 */
+    margin-top: 0.5rem;
+}

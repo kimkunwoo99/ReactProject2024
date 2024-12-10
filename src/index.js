@@ -38,12 +38,17 @@ import SignUp from "./chp11/SignUp";
 import Calculator2 from "./chp12/Calculator2";
 import Calculator3 from "./chp12/Calculator3";
 import DistanceConverter from "./chp12/distance/DistanceConverter";
+import ProfileCard from "./chp13/ex1/ProfileCard";
+import MainPage from "./chp13/ex1/MainPage";
+import CardContainer from "./chp13/airbnbHome/components/CardContainer";
+import AirApp from "./chp13/airbnbHome/AirApp";
+import App from "./gimalgosa/App"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 setInterval(()=>{
     root.render(
         <React.StrictMode>
-            <DistanceConverter/>
+            <App/>
         </React.StrictMode>
         );
     }
